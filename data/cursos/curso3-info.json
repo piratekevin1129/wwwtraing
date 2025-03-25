@@ -1,0 +1,75 @@
+{
+    "id" : "3",
+    "title" : "Manipulación manual de cargas",
+    "descripcion" : "Hay características de la carga con las que debemos ser precavidos a la hora de manipularla. Debemos revisar la forma, sus dimensiones y peso,  así como verificar los productos que contengan y su material. Sabías que... <span>¿Una mala postura al levantar un objeto puede ocasionar lesiones en la columna?.</span>",
+    "video" : "https://www.youtube.com/embed/O9x_bePADLY",
+    "thumbnail" : "assets/images/cursos-sgsst/curso-3.png",
+    "link" : "",
+    "precio" : "149.900/mes",
+    "tiempo_duracion" : "30 minutos de duración",
+    "numero_temas" : "0",
+    "numero_actividades" : "1 actividad de repaso",
+    "temario":[
+        {
+            "name" : "Introducción",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Cuida tu espalda. Columna vertebral",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "La columna vertebral tiene varios movimientos",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Manipulación manual de cargas",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Características de la carga",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Estabilidad de la carga y el equilibrio",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Peso máximo permitido individual",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Peso máximo permitido grupal",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Carácteristicas de la postura a la hora de manipular una carga",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Técnica de levantamiento y descenso manual de una carga",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Recomendaciones",
+            "type" : "evaluacion",
+            "duration" : "0"
+        },{
+            "name" : "Repaso",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "¿Cómo transportar las cargas?",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Mover cargas",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "¿Qué hemos aprendido?",
+            "type" : "interactiva",
+            "duration" : "0"
+        }
+    ]
+}

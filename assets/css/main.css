@@ -1,0 +1,61 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,h2,h3,h4,h5,h6,p,li,a,ol{
+    line-height: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container-fluid{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    padding: 100px 0px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f3f3f3;
+    margin: 0px;
+    padding: 25px 0px;
+}
+
+.main-title{
+    position: relative;
+    display: block;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    margin: 30px auto;
+
+    font-family: 'Quicksand-SemiBold';
+    font-size: 1.2rem;
+    color: #111111;
+    text-align: center;
+}
+.main-title span{
+    color: #F19B07;
+}
+
+.main-supertitle{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ff6b00;
+}
+.main-supertitle h1{
+    display: block;
+    width: auto;
+    margin: 0px;
+    padding: 25px 0px;
+
+    font-family: 'Quicksand-Bold';
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-align: center;
+}

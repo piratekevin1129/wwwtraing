@@ -1,0 +1,169 @@
+.app-carousel{
+    position: relative;
+    width: 100%;
+    margin: 0px
+}
+.app-carousel-container{
+    position: relative;
+    width: 1100px;
+    margin: 0px auto;
+}
+        
+.app-carousel-wrap{
+    position: relative;
+    width: 100%;
+    width: calc(100% - (70px * 2));
+    width: -moz-calc(100% - (70px * 2));
+    height: auto;
+    overflow: hidden;
+    margin: 0px auto;
+}
+.app-carousel-wrapper{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    left: 0%;
+
+    transition: left 0.5s ease-in-out;
+}
+
+.app-carousel-row{
+    position: relative;
+    display: block;
+    width: auto;
+    width: calc(100% / 3);
+    width: -moz-calc(100% / 3);
+    height: auto;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px 24px;
+
+    text-decoration: none !important;
+}
+.app-carousel-row h4,.app-carousel-row p{
+    text-decoration: none !important;
+}
+
+.app-carousel-item{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    display: block;
+}
+.app-carousel-item div{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    
+    margin: 0px auto;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+
+    box-shadow: 3px 3px 8px 3px rgba(0,0,0,0.6);
+    overflow: hidden;
+    filter: saturate(100%);
+
+    transition: filter 0.25s;
+}
+.app-carousel-item div::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.3);
+    mix-blend-mode: hard-light;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+
+    transition: opacity 0.25s;
+}
+.app-carousel-row:hover .app-carousel-item div::after{
+    opacity: 1;
+
+    transition: opacity 0.25s;
+}
+.app-carousel-row:hover .app-carousel-item div{
+    filter: saturate(150%);
+}
+
+.app-carousel-item h4,
+.app-carousel-item p{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    font-size: 1rem;
+}
+
+.app-carousel-item h4{
+    font-family: 'Quicksand-SemiBold';
+    color: #111111;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.app-carousel-item p{
+    font-family: 'Quicksand-Regular';
+    color: #6D7882;
+    text-align: left;
+
+    overflow: hidden;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    display: box;
+    display: -webkit-box;
+}
+.app-carousel-item p span{
+    font-family: 'Quicksand-SemiBold';
+}
+.app-carousel-item p i{
+    font-style: italic;
+}
+
+.app-carousel-prev-btn,
+.app-carousel-next-btn{
+    outline: none;
+    outline-width: 0;
+    border: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 16px 28px;
+    background-position: center;
+    top: 50%;
+    top: calc(50% - 25px);
+    top: -moz-calc(50% - 25px);
+    cursor: pointer;
+
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.app-carousel-next-btn{
+    background-image: url(arrow-next-icon.svg);
+    box-shadow: -2px 2px 5px 2px rgba(0,0,0,0.3);
+    right: 0px;
+}
+.app-carousel-prev-btn{
+    background-image: url(arrow-prev-icon.svg);
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.3);
+    left: 0px;
+}
+
+.app-carousel-prev-btn:hover,
+.app-carousel-next-btn:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.5);
+}

@@ -1,0 +1,12 @@
+.banner{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+.banner img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}

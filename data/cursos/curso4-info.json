@@ -1,0 +1,63 @@
+{
+    "id" : "4",
+    "title" : "Primeros Auxilios",
+    "descripcion" : "En la mayoría de los casos, la primera persona que atiende una emergencia, no pertenece al sector de la salud. Los primeros auxilios son denominados como <i>“Los cuidados inmediatos, adecuados y provisionales prestados a las personas accidentadas o con enfermedad antes de ser atendidos en un centro asistencial”</i>",
+    "video" : "",
+    "thumbnail" : "assets/images/cursos-sgsst/curso-4.png",
+    "link" : "",
+    "precio" : "149.900/mes",
+    "tiempo_duracion" : "30 minutos de duración",
+    "numero_temas" : "0",
+    "numero_actividades" : "1 actividad de repaso",
+    "temario":[
+        {
+            "name" : "Introducción",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Los primeros auxilios y la ley",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "¿Por dónde empiezo?",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Faltas graves durante los primeros auxilios",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Recuerde realizar",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Heridas y hemorragias",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Fracturas. Traumatismo, esfuerzo y enfermedad",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Convulsiones",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Emergencias cardiovasculares",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Factores de riesgo de la enfermedad cardiovascular no modificables",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Chat box",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Aplicando lo aprendido",
+            "type" : "evaluacion",
+            "duration" : "0"
+        }
+    ]
+}

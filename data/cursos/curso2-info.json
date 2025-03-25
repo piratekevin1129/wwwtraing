@@ -1,0 +1,75 @@
+{
+    "id" : "2",
+    "title" : "¿Sabes qué es el teletrabajo?",
+    "descripcion" : "Hoy en día son más las empresas que han implementado el Teletrabajo, ya que les permite tener más beneficios, mejorando la calidad de vida de sus colaboradores, logrando una reducción significativa de sus costos, y alcanzando una mayor productividad.",
+    "video" : "https://www.youtube.com/embed/O2SrBO-xbBk",
+    "thumbnail" : "assets/images/cursos-sgsst/curso-2.jpg",
+    "link" : "",
+    "precio" : "149.900/mes",
+    "tiempo_duracion" : "30 minutos de duración",
+    "numero_temas" : "0",
+    "numero_actividades" : "1 actividad de repaso",
+    "temario":[
+        {
+            "name" : "¿Sabes qué es el teletrabajo?",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Legislación del teletrabajo",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Regula el uso de la tecnología",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Practica hábitos de vida saludable",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Realiza pausas vitales durante la jornada",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Condiciones ambientales, puesto de Trabajo: Escritorio y computador",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Autodiagnóstico",
+            "type" : "evaluacion",
+            "duration" : "0"
+        },{
+            "name" : "Orden y aseo",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Responsabilidades del empleador",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Responsabilidades del teletrabajador",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "¿Qué hemos aprendido?",
+            "type" : "evaluacion",
+            "duration" : "0"
+        },{
+            "name" : "Cómo actuar en caso de accidente de trabajo en casa",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Prevención de Riesgos",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Situaciones de Emergencia: Sismo o Terremoto",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Aplicando lo aprendido",
+            "type" : "evaluacion",
+            "duration" : "0"
+        }
+    ]
+}

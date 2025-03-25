@@ -1,0 +1,357 @@
+.cursos-detalles-col{
+    position: relative;
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.cursos-detalles-row{
+    position: relative;
+    height: auto;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.cursos-detalles-col .cursos-detalles-row:first-child{
+    background-color: #fff;
+    border-radius: 4px;
+    width: auto;
+    width: calc(100% - (820px + 25px));
+    width: -moz-calc(100% - (820px + 25px));
+}
+.cursos-detalles-col .cursos-detalles-row:last-child{
+    width: 820px;
+}
+.cursos-detalles-video-embed{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 460px;
+    margin: 0px;
+    padding: 0px;
+}
+.cursos-detalles-thumbnail-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 460px;
+    margin: 0px;
+    object-position: top center;
+    object-fit: cover;
+}
+
+.cursos-detalles-acordeon{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.cursos-detalles-acordeon-header{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #2ba4dd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    transition: border-radius 0.25s;
+}
+.cursos-detalles-acordeon-header span{
+    font-family: 'Quicksand-Bold';
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
+}
+.cursos-detalles-acordeon-header img{
+    display: block;
+    width: 16px;
+    height: 16px;
+
+    transition: transform 0.25s;
+}
+                    
+.cursos-detalles-acordeon-body{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.cursos-detalles-acordeon-interactive-ul,
+.cursos-detalles-acordeon-ul{
+    position: relative;
+    display: block;
+    list-style: none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    margin: 0px;
+}
+.cursos-detalles-acordeon-interactive-ul::before{
+    content: "";
+    position: absolute;
+    background-color: #83bf41;
+    width: 3px;
+    height: 100%;
+    height: calc(100% - (25px + 25px));
+    height: -moz-calc(100% - (25px + 25px));
+    top: 25px;
+    left: 20px;
+    left: calc((15px + 20px) - 1.5px);
+    left: -moz-calc((15px + 20px) - 1.5px);
+}
+
+.cursos-detalles-acordeon-interactive-ul li{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.cursos-detalles-acordeon-interactive-ul li div{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #83bf41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+.cursos-detalles-acordeon-interactive-ul li div img{
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 0px;
+}
+.cursos-detalles-acordeon-interactive-ul li p,
+.cursos-detalles-acordeon-ul li{
+    display: block;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Quicksand-Regular';
+    font-size: 1rem;
+    color: #6d7882;
+    text-align: left;
+}
+
+.cursos-detalles-acordeon-ul li{
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.cursos-detalles-acordeon-ul li::after{
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #83bf41;
+    left: 0px;
+    top: 8px;
+}
+
+.cursos-detalles-acordeon-closed .cursos-detalles-acordeon-header{
+    border-radius: 4px;
+}
+.cursos-detalles-acordeon-closed .cursos-detalles-acordeon-header img{
+    transform: rotate(0deg);
+}
+.cursos-detalles-acordeon-closed .cursos-detalles-acordeon-body{
+    max-height: 0px;
+    transition: max-height 0.25s ease-out;
+}
+
+.cursos-detalles-acordeon-opened .cursos-detalles-acordeon-header{
+    border-radius: 4px 4px 0px 0px;
+}
+.cursos-detalles-acordeon-opened .cursos-detalles-acordeon-header img{
+    transform: rotate(90deg);
+}
+.cursos-detalles-acordeon-opened .cursos-detalles-acordeon-body{
+    max-height: 450px;
+    transition: max-height 0.25s ease-out;
+}
+
+.cursos-detalles-quiero-btn{
+    outline: none;
+    outline-width: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #83bf41;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+
+    margin: 0px auto;
+    margin-bottom: 20px;
+
+    font-family: 'Quicksand-Bold';
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+
+    transition: box-shadow 0.25s, background-color 0.25s;
+}
+.cursos-detalles-quiero-btn:hover{
+    background-color: #94cc4c;
+    box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.8);
+}
+
+.cursos-detalles-precio{
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Quicksand-SemiBold';
+    font-size: 1.5rem;
+    color: #f5ac41;
+    text-align: center;
+}
+
+.cursos-detalles-video,
+.cursos-detalles-thumbnail{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.cursos-detalles-title{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+
+    font-family: 'Quicksand-SemiBold';
+    font-size: 1.5rem;
+    color: #111111;
+    text-align: left;
+}
+.cursos-detalles-title span{
+    color: #f5ac41;
+}
+
+.cursos-detalles-descripcion{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+
+    font-family: 'Quicksand-Regular';
+    font-size: 1rem;
+    color: #6d7882;
+    text-align: left;
+}
+.cursos-detalles-descripcion span{
+    font-family: 'Quicksand-Bold';
+}
+
+.cursos-detalles-temario{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.cursos-detalles-temario-item{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    padding: 6px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: default;
+}
+.cursos-detalles-temario-item::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #83bf41;
+    left: 0px;
+    bottom: -0.5px;
+    opacity: 0.5;
+
+    transition: width 0.25s;
+}
+.cursos-detalles-temario-item:hover::after{
+    width: 100%;
+}
+.cursos-detalles-temario-item > img{
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin: 0px;
+    margin-right: 10px;
+}
+.cursos-detalles-temario-item > p{
+    display: block;
+    width: auto;
+    width: calc(100% - (35px + 100px));
+    width: -moz-calc(100% - (35px + 100px));
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Quicksand-Regular';
+    font-size: 1rem;
+    color: #6d7882;
+    text-align: left;
+}
+
+.cursos-detalles-temario-item > div{
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100px;
+    height: auto;
+}
+.cursos-detalles-temario-item > div span{
+    font-family: 'Quicksand-Regular';
+    font-size: 1rem;
+    color: #6d7882;
+    text-align: right;
+}
+.cursos-detalles-temario-item > div img{
+    display: block;
+    width: 17px;
+    height: 17px;
+    margin: 0px;
+    margin-left: 10px;
+}

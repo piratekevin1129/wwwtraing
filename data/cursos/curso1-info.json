@@ -1,0 +1,63 @@
+{
+    "id" : "1",
+    "title" : "Riesgo psicosocial",
+    "descripcion" : "Nuestro principal objetivo es brindarte herramientas que te permitan conocer las características de los <span>factores psicosociales y la gestión que puedes hacer dentro de las organizaciones.</span>",
+    "video" : "https://www.youtube.com/embed/XbmOti6ssnU",
+    "thumbnail" : "assets/images/cursos-sgsst/curso-1.jpg",
+    "link" : "",
+    "precio" : "149.900/mes",
+    "tiempo_duracion" : "30 minutos de duración",
+    "numero_temas" : "0",
+    "numero_actividades" : "1 actividad de repaso",
+    "temario":[
+        {
+            "name" : "Factores psicosociales",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Condiciones psicosociales",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Efectos en la salud",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Cambios producto del estrés",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Medidas preventivas del estrés",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Factores psicosociales intralaborales",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Factores psicosociales extralaborales",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Factores psicosociales individuales",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Intervención de los factores psicosociales",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Acoso laboral",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Medidas preventivas y correctivas de acoso laboral",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Aplicando lo aprendido",
+            "type" : "evaluacion",
+            "duration" : "0"
+        }
+    ]
+}
