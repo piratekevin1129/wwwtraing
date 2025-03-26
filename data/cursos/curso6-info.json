@@ -1,0 +1,63 @@
+{
+    "id" : "6",
+    "title" : "Identificación de peligros y evaluación de riesgos. Módulo 2.",
+    "descripcion" : "Daremos continuidad a tu proceso de formación, fortaleciendo tus conocimientos y competencias para que seas un <span>excelente Líder</span> de SST, lo que te permitirá ser ejemplo y motivación para el personal que tienes a tu cargo.",
+    "video" : "",
+    "thumbnail" : "assets/images/cursos-sgsst/curso-6.jpg",
+    "link" : "",
+    "precio" : "149.900/mes",
+    "tiempo_duracion" : "30 minutos de duración",
+    "numero_temas" : "0",
+    "numero_actividades" : "0",
+    "temario":[
+        {
+            "name" : "Bienvenida",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Introducción general",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Introducción Módulo 1",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Fundamentación legal",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Aplicando lo aprendido (complete la frase)",
+            "type" : "juego",
+            "duration" : "0"
+        },{
+            "name" : "Aspectos corporativos del SGSST ",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Estructura organizacional para el Sistema de Gestión SST",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Política Integral de Gestión",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Política del Sistema de Gestión de la SST",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Política de no alcohol, drogas y fumadores",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Política de seguridad vial",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Aplicando lo aprendido (concéntrese)",
+            "type" : "juego",
+            "duration" : "0"
+        }
+    ]
+}

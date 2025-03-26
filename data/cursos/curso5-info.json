@@ -1,0 +1,63 @@
+{
+    "id" : "5",
+    "title" : "Líderes de Seguridad y Salud en el Trabajo. Módulo 1.",
+    "descripcion" : "La gestión de los <span>riesgos psicosociales</span>, la eliminación y el control de los factores de riesgo, no solo ayuda a preservar la salud, sino que establece diferentes oportunidades para optimizar la gestión empresarial, el aprendizaje, la innovación, y la mejora continua de procesos.",
+    "video" : "",
+    "thumbnail" : "assets/images/cursos-sgsst/curso-5.jpg",
+    "link" : "",
+    "precio" : "149.900/mes",
+    "tiempo_duracion" : "30 minutos de duración",
+    "numero_temas" : "0",
+    "numero_actividades" : "0",
+    "temario":[
+        {
+            "name" : "Bienvenida",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Introducción general",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Introducción Módulo 1",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Fundamentación legal",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Aplicando lo aprendido (complete la frase)",
+            "type" : "video",
+            "duration" : "evaluacion"
+        },{
+            "name" : "Aspectos corporativos del SGSST ",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Estructura organizacional para el Sistema de Gestión SST",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Política Integral de Gestión",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Política del Sistema de Gestión de la SST",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Política de no alcohol, drogas y fumadores",
+            "type" : "video",
+            "duration" : "0"
+        },{
+            "name" : "Política de seguridad vial",
+            "type" : "interactiva",
+            "duration" : "0"
+        },{
+            "name" : "Aplicando lo aprendido (concéntrese)",
+            "type" : "juego",
+            "duration" : "0"
+        }
+    ]
+}

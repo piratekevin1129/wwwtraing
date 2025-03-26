@@ -5,6 +5,15 @@ if(isset($_GET['course'])){
 
     $file = file_get_contents('data/cursos/curso'.$c.'-info.json');
     $json_data = json_decode($file, true);
+
+    $numero_temas = count($json_data['temario']);
+    $numero_interactivas = 0;
+
+    foreach($json_data['temario'] as $tema){
+        if($tema['type']=='interactiva'||$tema['type']=='juego'){
+            $numero_interactivas++;
+        }
+    }
 ?>
 
     <!DOCTYPE html>
@@ -51,7 +60,7 @@ if(isset($_GET['course'])){
                                     <div>
                                         <img src="assets/icons/actividades.svg" />
                                     </div>
-                                    <p><?php echo $json_data['numero_actividades'] ?></p>
+                                    <p><?php echo $numero_interactivas.' actividades de repaso' ?></p>
                                 </li>
                                 <li>
                                     <div>

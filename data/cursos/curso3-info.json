@@ -8,7 +8,7 @@
     "precio" : "149.900/mes",
     "tiempo_duracion" : "30 minutos de duración",
     "numero_temas" : "0",
-    "numero_actividades" : "1 actividad de repaso",
+    "numero_actividades" : "0",
     "temario":[
         {
             "name" : "Introducción",
@@ -52,7 +52,7 @@
             "duration" : "0"
         },{
             "name" : "Recomendaciones",
-            "type" : "evaluacion",
+            "type" : "juego",
             "duration" : "0"
         },{
             "name" : "Repaso",
