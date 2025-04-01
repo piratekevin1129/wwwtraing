@@ -18,7 +18,8 @@ for($i = 2;$i<count($cursos);$i++){
 }
 
 $carousel_data = array(
-    'link'=>'cursos-detalles.php?course=',
+    //'link'=>'cursos-detalles.php?course=',
+    'link'=>'https://docs.google.com/document/d/1voqkGi6tMf-qpZxe8GyUPgBPSFMIi1ahJzE6FgLcjfo/edit?usp=sharing'
     'items'=>$items
 );
 
