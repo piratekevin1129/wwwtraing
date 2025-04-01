@@ -53,7 +53,7 @@ footer{
     text-decoration: underline;
 }
 
-.footer-row > a::after{
+/*.footer-row > a::after{
     content: "";
     position: absolute;
     width: 1px;
@@ -61,11 +61,11 @@ footer{
     top: 0px;
     left: -0.5px;
     background-color: #ffffff;
-}
+}*/
 
-.footer-row > span{
+.footer-row > a{
     padding: 0px;
 }
-.footer-row > span img{
+.footer-row > a img{
     margin-left: 15px;
 }

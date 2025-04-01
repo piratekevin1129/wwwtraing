@@ -4,11 +4,13 @@
         <div class="footer-row">
             <img src="assets/images/logo-blanco.svg" />
             <p>Copyright @ <?php echo date('Y')?> Traing</p>
-            <a href="#">Información legal</a>
-            <a href="#">Política de privacidad</a>
+            <p href="#">Información legal</p>
+            <p href="#">Política de privacidad</p>
         </div>
         <div class="footer-row">
-            <span>Contáctanos <img src="assets/icons/whatsapp.svg" /></span>
+            <a href="https://api.whatsapp.com/send?phone=573145007934" target="_blank">
+                Contáctanos <img style="margin-left: 10px;" src="assets/icons/whatsapp.svg" />
+            </a>
         </div>
     </div>
 </footer>
