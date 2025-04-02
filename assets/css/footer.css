@@ -29,14 +29,13 @@ footer{
     display: flex;
 }
 
-.footer-row img{
+.footer-row > img{
     width: auto;
     height: 23px;
     margin: 0px;
 }
 .footer-row > p,
-.footer-row > a,
-.footer-row > span{
+.footer-row > a{
     position: relative;
     display: flex;
     align-items: center;
@@ -50,10 +49,14 @@ footer{
     color: #ffffff;
 }
 .footer-row > a{
+    text-decoration: none;
+}
+
+.footer-col .footer-row:first-child > a:hover{
     text-decoration: underline;
 }
 
-/*.footer-row > a::after{
+.footer-col .footer-row:first-child > a::after{
     content: "";
     position: absolute;
     width: 1px;
@@ -61,11 +64,12 @@ footer{
     top: 0px;
     left: -0.5px;
     background-color: #ffffff;
-}*/
+}
 
-.footer-row > a{
+.footer-col .footer-row:last-child > a{
     padding: 0px;
 }
-.footer-row > a img{
+.footer-row > a > img{
+    height: 20px;
     margin-left: 15px;
 }

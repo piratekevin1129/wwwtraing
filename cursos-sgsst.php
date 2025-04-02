@@ -32,7 +32,10 @@
 
         <?php include 'data/cursos-sgsst-carousel1-info.php' ?>
         <?php include 'includes/components/carousel/carousel.php' ?>
+
+        <a href="https://docs.google.com/document/d/1voqkGi6tMf-qpZxe8GyUPgBPSFMIi1ahJzE6FgLcjfo/edit?usp=sharing" target="_blank" class="main-button">Ver más cursos</a>
     </div>
+
 
     <?php include 'includes/footer.php' ?>
 
