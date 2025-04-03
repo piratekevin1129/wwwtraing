@@ -127,8 +127,58 @@
         </div>
     </div>
 
+    <div class="cursos-seccion">
+        <div class="cursos-fondo">
+            <img src="assets/images/home/banner-cursos.png" />
+        </div>
+        <div class="cursos-content">
+            <h1>¡Si, tú también puedes crear cursos en <br> <span>TRAING</span> igual de increíbles!</h1>
+            <div class="cursos-content-col">
+                <div class="cursos-content-row">
+                    <div class="cursos-content-icono">
+                        <img src="assets/images/home/cursos-crea.svg" />
+                        <p>CREA</p>
+                    </div>
+                </div>
+
+                <div class="cursos-content-row">
+                    <div class="cursos-content-mas">
+                        <img src="assets/images/home/cursos-mas.svg" />
+                    </div>
+                </div>
+
+                <div class="cursos-content-row">
+                    <div class="cursos-content-icono">
+                        <img src="assets/images/home/cursos-almacena.svg" />
+                        <p>ALMACENA</p>
+                    </div>
+                </div>
+
+                <div class="cursos-content-row">
+                    <div class="cursos-content-mas">
+                        <img src="assets/images/home/cursos-mas.svg" />
+                    </div>
+                </div>
+
+                <div class="cursos-content-row">
+                    <div class="cursos-content-icono">
+                        <img src="assets/images/home/cursos-administra.svg" />
+                        <p>ADMINISTRA</p>
+                    </div>
+                </div>
+            </div>
+            <p>Realiza inscripciones, asigna cursos, segmenta actividades, define ingreso a encuestas y evaluaciones, todo de acuerdo con el perfil de cada usuario: estudiante, responsable, auxiliar o administrador. Nuestra plataforma es compatible con distintos formatos: Word, PDF, PowerPoint, Excel, mp4, html5, SCORM y otros.</p>
+        </div>
+    </div>
+    <div class="cursos-carousel">
+        <?php include 'data/cursos-home-info.php' ?>
+
+        <link href="includes/components/scss/carousel.css" type="text/css" rel="stylesheet" />
+        <?php include 'includes/components/carousel.v2/carousel.php' ?>
+    </div>
+
     <?php include 'includes/footer.php' ?>
 
-    <script src="includes/components/carousel/carousel.js"></script>
+    <script src="includes/components/carousel.v2/carousel.js"></script>
 </body>
 </html>
