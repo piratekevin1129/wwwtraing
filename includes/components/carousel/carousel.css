@@ -2,8 +2,6 @@
     position: relative;
     display: block;
     width: auto;
-    width: calc(100% / 3);
-    width: -moz-calc(100% / 3);
     height: auto;
     margin: 0px;
     box-sizing: border-box;
@@ -93,4 +91,11 @@
 }
 .app-carousel-item p i{
     font-style: italic;
+}
+
+.app-carousel-container .app-carousel-prev-btn,
+.app-carousel-container .app-carousel-next-btn{
+    top: 50%;
+    top: calc(50% - 25px);
+    top: -moz-calc(50% - 25px);
 }

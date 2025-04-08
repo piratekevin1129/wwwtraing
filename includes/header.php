@@ -21,7 +21,7 @@
         <div class="logo">
             <img src="assets/images/logo.svg" />
         </div>
-        <!--
+        
         <nav class="menu">
             <ul>
                 <li class="submenu">
@@ -50,6 +50,6 @@
                 </li>
             </ul>
         </nav>
-        -->
+        
     </div>
 </header>

@@ -1,0 +1,85 @@
+.app-carousel-v3-wrap{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.app-carousel-v3-row{
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px 24px;
+
+    text-decoration: none !important;
+}
+
+.app-carousel-v3-item{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    display: block;
+}
+.app-carousel-v3-item div{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0px auto;
+    background-color: #ffffff;
+
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+    overflow: hidden;
+    filter: saturate(100%);
+
+    transition: background-color 0.25s;
+}
+.app-carousel-v3-item div img{
+    display: block;
+    height: 90px;
+    width: auto;
+    margin: 0px;
+}
+
+.app-carousel-v3-item div::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.75);
+    background: linear-gradient(
+        to right, 
+        rgba(255,255,255,0) 0%, 
+        rgba(255,255,255,0.75) 25%, 
+        rgba(255,255,255,0.75) 50%, 
+        rgba(255,255,255,0.75) 75%, 
+        rgba(255,255,255,0) 100%
+        );
+    top: 0%;
+    left: -100%;
+    opacity: 0;
+
+    transition: opacity 0s, left 0s;
+}
+.app-carousel-v3-row:hover .app-carousel-v3-item div::after{
+    opacity: 1;
+    left: 100%;
+
+    transition: opacity 0.25s, left 0.5s;
+}
+.app-carousel-v3-row:hover .app-carousel-v3-item div{
+    background-color: #f3f3f3;
+}
+
+.app-carousel-v3-container .app-carousel-prev-btn,
+.app-carousel-v3-container .app-carousel-next-btn{
+    top: 50%;
+    top: calc(50% - 25px);
+    top: -moz-calc(50% - 25px);
+}

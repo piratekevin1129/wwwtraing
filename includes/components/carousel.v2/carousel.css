@@ -7,8 +7,6 @@
     position: relative;
     display: block;
     width: auto;
-    width: calc(100% / 3);
-    width: -moz-calc(100% / 3);
     height: auto;
     margin: 0px;
     box-sizing: border-box;
@@ -114,4 +112,11 @@
 .app-carousel-v2-page:hover,
 .app-carousel-v2-pages .active{
     background-color: #2ca2db;
+}
+
+.app-carousel-v2-container .app-carousel-prev-btn,
+.app-carousel-v2-container .app-carousel-next-btn{
+    top: 50%;
+    top: calc(((100% - 25px) / 2) - 25px);/*25 miden las pages de alto + margin*/
+    top: -moz-calc(((100% - 25px) / 2) - 25px);
 }

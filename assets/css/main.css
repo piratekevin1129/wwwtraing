@@ -12,6 +12,7 @@ h1,h2,h3,h4,h5,h6,p,li,a,ol,span{
 .container-fluid{
     position: relative;
     width: 100%;
+    height: auto;
     margin: 0px;
     padding: 100px 0px;
 }
@@ -22,6 +23,29 @@ h1,h2,h3,h4,h5,h6,p,li,a,ol,span{
     background-color: #f3f3f3;
     margin: 0px;
     padding: 25px 0px;
+}
+.container-black{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #010101;
+    margin: 0px;
+    padding: 100px 0px;
+}
+
+.submain-text{
+    display: block;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Quicksand-SemiBold';
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+}
+.submain-text span{
+    color: #f19b07;
 }
 
 .main-title{
@@ -60,11 +84,10 @@ h1,h2,h3,h4,h5,h6,p,li,a,ol,span{
     text-align: center;
 }
 
-.main-button{
+.green-button,
+.orange-button{
     outline: none;
     outline-width: 0;
-    width: 160px;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,21 +95,65 @@ h1,h2,h3,h4,h5,h6,p,li,a,ol,span{
     text-decoration: none;
     border: none;
     border-radius: 2px;
-    background-color: #83bf41;
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
 
     margin: 20px auto;
-
-    font-family: 'Quicksand-Regular';
-    font-size: 1rem;
-    color: #ffffff;
-    text-align: center;
     cursor: pointer;
 
     transition: box-shadow 0.25s, background-color 0.25s;
 }
-.main-button:hover{
+
+.green-button{
+    width: 160px;
+    height: 40px;
+    background-color: #83bf41;
+}
+.orange-button{
+    width: 200px;
+    height: 50px;
+    background-color: #f19b07;
+}
+
+.green-button span,
+.orange-button span{
+    font-family: 'Quicksand-Regular';
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+}
+.green-button span{
+    font-size: 1rem;
+}
+.orange-button span{
+    font-size: 1.2rem;
+}
+
+.green-button img,
+.orange-button img{
+    height: 25px;
+    width: auto;
+    margin-right: 8px;
+}
+
+.green-button:hover,
+.orange-button:hover{
     text-decoration: none;
-    background-color: #94cc4c;
     box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.8);
+}
+.green-button:hover{
+    background-color: #94cc4c;
+}
+.orange-button:hover{
+    background-color: #d6850d;
+}
+
+.columna-center{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
 }

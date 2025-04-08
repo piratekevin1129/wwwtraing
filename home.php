@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <?php include 'includes/styles.php'?>
+
+    <link href="assets/css/home.css" rel="stylesheet" type="text/css" />
+    <link href="includes/components/scss/carousel.css" type="text/css" rel="stylesheet" />
     
     <title>Traing</title>
 </head>
@@ -172,13 +175,35 @@
     </div>
     <div class="cursos-carousel">
         <?php include 'data/cursos-home-info.php' ?>
-
-        <link href="includes/components/scss/carousel.css" type="text/css" rel="stylesheet" />
         <?php include 'includes/components/carousel.v2/carousel.php' ?>
+    </div>
+
+    <div class="clientes-seccion">
+        <h1>Nuestros <span>Clientes</span></h1>
+        <p>Estas han sido algunas de las empresas e instituciones que han confiado en nosotros:</p>
+
+        <div class="clientes-carousel">
+            <?php include 'data/carousel-clientes.php' ?>
+            <?php include 'includes/components/carousel.v3/carousel.php' ?>
+        </div>
+    </div>
+
+    <div class="container-black">
+        <div class="columna-center">
+            <div>
+                <p class="submain-text">¿Necesitas capacitar un numero diferentes de usuarios? <br> <span>Contáctanos</span> ya y pídenos una cotización personalizada.</p>
+
+                <a class="orange-button" href="#">
+                    <img src="assets/icons/whatsapp.svg" />
+                    <span>¡Contáctanos!</span>
+                </a>
+            </div>
+        </div>
     </div>
 
     <?php include 'includes/footer.php' ?>
 
     <script src="includes/components/carousel.v2/carousel.js"></script>
+    <script src="includes/components/carousel.v3/carousel.js"></script>
 </body>
 </html>

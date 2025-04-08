@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <?php include 'includes/styles.php'?>
+    <link href="includes/components/scss/carousel.css" type="text/css" rel="stylesheet" />
     
     <title>Traing - Cursos</title>
 </head>
@@ -31,11 +32,11 @@
         <h1 class="main-title">Cursos de <span>Seguridad y Salud en el Trabajo</span></h1>
 
         <?php include 'data/cursos-sgsst-carousel1-info.php' ?>
-
-        <link href="includes/components/scss/carousel.css" type="text/css" rel="stylesheet" />
         <?php include 'includes/components/carousel/carousel.php' ?>
 
-        <a href="https://docs.google.com/document/d/1voqkGi6tMf-qpZxe8GyUPgBPSFMIi1ahJzE6FgLcjfo/edit?usp=sharing" target="_blank" class="main-button">Ver más cursos</a>
+        <a href="https://docs.google.com/document/d/1voqkGi6tMf-qpZxe8GyUPgBPSFMIi1ahJzE6FgLcjfo/edit?usp=sharing" target="_blank" class="green-button">
+            <span>Ver más cursos</span>
+        </a>
     </div>
 
 

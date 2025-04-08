@@ -15,7 +15,7 @@
             </div>
         </div>
         
-        <button class="app-carousel-prev-btn app-carousel-locked-btn" onclick="app_carousel_v2_clickPrev(this)"></button>
+        <button class="app-carousel-prev-btn" onclick="app_carousel_v2_clickPrev(this)"></button>
         <button class="app-carousel-next-btn" onclick="app_carousel_v2_clickNext(this)"></button>
         <div class="app-carousel-v2-pages"></div>
     </div>
