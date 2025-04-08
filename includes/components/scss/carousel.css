@@ -33,9 +33,14 @@
     align-items: stretch;
     justify-content: flex-start;
     left: 0%;
-
+}
+.app-carousel-wrapper{
     transition: left 0.5s ease-in-out;
 }
+.app-carousel-v2-wrapper{
+    transition: left 1s ease-in-out;
+}
+
 
 .app-carousel-prev-btn,
 .app-carousel-next-btn{

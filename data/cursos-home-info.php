@@ -13,14 +13,35 @@ $carousel_data = array(
             'link'=>""
         ),
         array(
-            'id'=>1,
+            'id'=>2,
             'title'=>"",
             'description'=>"",
             'thumbnail'=>'assets/images/home/curso-carousel-2.png',
             'link'=>""
         ),
         array(
-            'id'=>1,
+            'id'=>3,
+            'title'=>"",
+            'description'=>"",
+            'thumbnail'=>'assets/images/home/curso-carousel-3.png',
+            'link'=>""
+        ),
+        array(
+            'id'=>4,
+            'title'=>"",
+            'description'=>"",
+            'thumbnail'=>'assets/images/home/curso-carousel-3.png',
+            'link'=>""
+        ),
+        array(
+            'id'=>5,
+            'title'=>"",
+            'description'=>"",
+            'thumbnail'=>'assets/images/home/curso-carousel-3.png',
+            'link'=>""
+        ),
+        array(
+            'id'=>6,
             'title'=>"",
             'description'=>"",
             'thumbnail'=>'assets/images/home/curso-carousel-3.png',

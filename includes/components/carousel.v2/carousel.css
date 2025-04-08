@@ -1,3 +1,8 @@
+.app-carousel-v2-wrap{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
 .app-carousel-v2-row{
     position: relative;
     display: block;
@@ -25,7 +30,6 @@
     height: 168px;
     
     margin: 0px auto;
-    margin-bottom: 15px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right top;
@@ -79,9 +83,35 @@
 }
 .app-carousel-v2-row:hover .app-carousel-v2-item div{
     filter: saturate(150%);
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 .app-carousel-v2-row:hover .app-carousel-v2-item button{
     transform: scale(1.5);
     filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.8));
+}
+
+.app-carousel-v2-pages{
+    position: relative;
+    width: auto;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.app-carousel-v2-page{
+    position: relative;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #b3b3b3;
+    margin: 0px 12px;
+    cursor: pointer;
+
+    transition: background-color 0.25s;
+}
+.app-carousel-v2-page:hover,
+.app-carousel-v2-pages .active{
+    background-color: #2ca2db;
 }

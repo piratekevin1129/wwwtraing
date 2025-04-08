@@ -35,10 +35,12 @@ function app_carousel_clickNext(btn){
 var app_carousel_limit = 3
 
 function app_setCarousel(){
-    var carousels = document.getElementsByClassName('app-carousel-wrap')
+    var carousels = document.getElementsByClassName('app-carousel-container')
     for(var i = 0;i<carousels.length;i++){
-        var total = carousels[i].getAttribute('total')
-        var wrapper = carousels[i].getElementsByClassName('app-carousel-wrapper')[0]
+        var wrap = carousels[i].getElementsByClassName('app-carousel-wrap')[0]
+        var total = wrap.getAttribute('total')
+        var wrapper = wrap.getElementsByClassName('app-carousel-wrapper')[0]
+        
         wrapper.style.width = 'auto'
         wrapper.style.width = 'calc((100% / '+app_carousel_limit+') * '+total+')'
     }

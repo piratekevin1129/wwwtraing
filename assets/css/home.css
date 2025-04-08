@@ -553,5 +553,7 @@
 .cursos-carousel{
     position: relative;
     width: 100%;
-    transform: translateY(-50%);
+    transform: translateY(-84px);
+    transform: translateY(calc(0% - ((100% - 25px) / 2)));
+    transform: translateY(-moz-calc(0% - ((100% - 25px) / 2)));
 }

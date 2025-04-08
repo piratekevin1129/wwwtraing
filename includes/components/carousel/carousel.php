@@ -15,6 +15,7 @@
                 <?php } ?>
             </div>
         </div>
+        
         <button class="app-carousel-prev-btn app-carousel-locked-btn" onclick="app_carousel_clickPrev(this)"></button>
         <button class="app-carousel-next-btn" onclick="app_carousel_clickNext(this)"></button>
     </div>
