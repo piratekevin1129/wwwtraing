@@ -13,7 +13,7 @@
     <?php include 'includes/header.php' ?>
 
     <div class="banner">
-        <img src="assets/images/cursos-sgsst/cursos-sst.jpg" />
+        <img src="assets/images/cursos-sgsst/banner.jpg" />
     </div>
     <div class="bannertip">
         <div class="bannertip-box">
@@ -28,7 +28,7 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid py-100">
         <h1 class="main-title">Cursos de <span>Seguridad y Salud en el Trabajo</span></h1>
 
         <?php include 'data/cursos-sgsst-carousel1-info.php' ?>

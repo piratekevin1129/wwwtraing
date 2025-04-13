@@ -173,6 +173,7 @@
             <p>Realiza inscripciones, asigna cursos, segmenta actividades, define ingreso a encuestas y evaluaciones, todo de acuerdo con el perfil de cada usuario: estudiante, responsable, auxiliar o administrador. Nuestra plataforma es compatible con distintos formatos: Word, PDF, PowerPoint, Excel, mp4, html5, SCORM y otros.</p>
         </div>
     </div>
+    
     <div class="cursos-carousel">
         <?php include 'data/cursos-home-info.php' ?>
         <?php include 'includes/components/carousel.v2/carousel.php' ?>
@@ -188,7 +189,7 @@
         </div>
     </div>
 
-    <div class="container-black">
+    <div class="container-black py-100">
         <div class="columna-center">
             <div>
                 <p class="submain-text">¿Necesitas capacitar un numero diferentes de usuarios? <br> <span>Contáctanos</span> ya y pídenos una cotización personalizada.</p>

@@ -10,6 +10,7 @@
     margin: 0px auto;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 .bannertip-img{
@@ -65,7 +66,7 @@
     text-align: left;
 }
 .bannertip-content h1{
-    font-family: 'Quicksand-SemiBold';
+    font-family: 'Quicksand-Bold';
     font-size: 1.2rem;
     color: #111111;
     
@@ -97,4 +98,11 @@
     font-size: 1rem;
     text-align: left;
     color: #ffffff;
+}
+
+.bannertip-fucsia .bannertip-img{
+    background-color: #983393;
+}
+.bannertip-fucsia .bannertip-content h1 span{
+    color: #983393;
 }

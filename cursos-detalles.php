@@ -34,7 +34,7 @@ if(isset($_GET['course'])){
             <h1>Cursos listos a implementar</h1>
         </div>
         
-        <div class="container">
+        <div class="container py-25">
             <div class="cursos-detalles-col">
                 <div class="cursos-detalles-row">
                     <div class="cursos-detalles-acordeon cursos-detalles-acordeon-opened" status="opened">
