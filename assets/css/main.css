@@ -47,22 +47,32 @@ h1,h2,h3,h4,h5,h6,p,li,a,ol,span{
     padding-bottom: 25px;
 }
 
-.submain-text{
+.submain-text,
+.submain-text-2{
     display: block;
     width: auto;
     margin: 0px;
     padding: 0px;
 
     font-family: 'Quicksand-SemiBold';
-    font-size: 1.2rem;
     color: #ffffff;
     text-align: center;
 }
+
+.submain-text{
+    font-size: 1.2rem;
+}
+.submain-text-2{
+    font-size: 1rem;
+    margin: 15px auto;
+}
+
 .submain-text span{
     color: #f19b07;
 }
 
-.main-title{
+.main-title,
+.main-title-2{
     position: relative;
     display: block;
     width: auto;
@@ -74,6 +84,12 @@ h1,h2,h3,h4,h5,h6,p,li,a,ol,span{
     font-size: 1.2rem;
     color: #111111;
     text-align: center;
+}
+.main-title{
+    font-family: 'Quicksand-SemiBold';
+}
+.main-title-2{
+    font-family: 'Quicksand-Bold';
 }
 .main-title span{
     color: #F19B07;
@@ -167,7 +183,7 @@ h1,h2,h3,h4,h5,h6,p,li,a,ol,span{
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0px;
     padding: 0px;
 }

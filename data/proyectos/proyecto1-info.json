@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "nombre": "Estándar de seguridad eléctrica",
+        "descripcion": "Creación e integración de ilustraciones, en VideoScribe.",
+        "thumbnail": "assets/images/proyectos/estandar-seguridad-electrica.jpg",
+        "link": "",
+        "categoria": "elearning"
+    },
+    {
+        "id": 2,
+        "nombre": "MAPA SHE",
+        "descripcion": "Aprendiendo sobre los riesgos de trabajo expuestos dentro de Nestlé.",
+        "thumbnail": "assets/images/proyectos/mapa-she.jpg",
+        "link": "",
+        "categoria": "gamificacion"
+    },
+    {
+        "id": 3,
+        "nombre": "Pausas Saludables",
+        "descripcion": "Representación animada  de  pausas activas saludables.",
+        "thumbnail": "assets/images/proyectos/pausas-saludables.jpg",
+        "link": "",
+        "categoria": "cartillas"
+    },
+    {
+        "id": 4,
+        "nombre": "Lesiones osteomusculares",
+        "descripcion": "Curso con Ilustración y animación de personajes Corporativos.",
+        "thumbnail": "assets/images/proyectos/lesiones-osteomusculares.jpg",
+        "link": "",
+        "categoria": "cartillas"
+    }
+]

@@ -39,7 +39,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(0,0,0,0.6);
 
     transition: background-color 0.25s;
 }
@@ -229,7 +229,7 @@
     object-fit: cover;
     object-position: center;
 
-    transition: filter 0.25s;
+    transition: filter 0.25s, transform 0.5s;
 }
 
 .video-seccion-btn button{
@@ -264,9 +264,10 @@
 }
 .video-seccion-btn:hover img{
     filter: grayscale(50%);
+    transform: scale(1.05) rotate(-1deg);
 }
 .video-seccion-btn:hover button{
-    transform: scale(1.5);
+    transform: scale(1.2);
     opacity: 1;
 }
 

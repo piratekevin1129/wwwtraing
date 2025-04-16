@@ -52,6 +52,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    transition: filter 0.25s, transform 0.25s;
 }
 .caso-img div::after{
     content: "";
@@ -89,6 +91,18 @@
     filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
 
     transition: transform 0.25s, filter 0.25s;
+}
+
+.caso-img:hover div::after{
+    opacity: 1;
+}
+.caso-img:hover div{
+    filter: saturate(150%);
+    transform: scale(1.02);
+}
+.caso-img:hover button{
+    transform: scale(1.5);
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.8));
 }
                     
 .caso-nombre,
